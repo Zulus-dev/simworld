@@ -1,0 +1,4 @@
+torch>=2.4.0
+torchvision
+pydantic>=2.0
+# numpy будет тянуться автоматически через torch
