@@ -1,0 +1,8 @@
+{
+    "pheromone_levels": 8,
+    "resource_spawn_rate": 0.2,
+    "block_sparse_block_size": 8,
+    "initial_wall_density": 0.15,
+    "initial_resource_count": 4000,
+    "diffusion_rate": 0.05
+  }

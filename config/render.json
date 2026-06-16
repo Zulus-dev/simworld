@@ -1,0 +1,14 @@
+{
+  "framebuffer_width": 1024,
+  "framebuffer_height": 1024,
+  "render_every": 1,
+  "headless": false,
+  "backend": "headless_nvenc",
+  "color_scheme": {
+    "wall": [20, 20, 20],
+    "pheromone_a": [0, 255, 50],
+    "pheromone_b": [0, 100, 255],
+    "agent": [255, 255, 0],
+    "matka": [255, 0, 255]
+  }
+}

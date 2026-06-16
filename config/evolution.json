@@ -1,0 +1,9 @@
+{
+    "mutation_rate": 0.01,
+    "crossover_rate": 0.7,
+    "tournament_size": 4,
+    "hebbian_eta": 0.05,
+    "hebbian_gamma": 0.1,
+    "elitism_rate": 0.05,
+    "population_diversity_threshold": 0.3
+  }

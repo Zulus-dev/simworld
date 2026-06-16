@@ -1,0 +1,25 @@
+{
+    "name": "default_resource_collection",
+    "perceiver_tokens": 512,
+    "affordance_map_size": 32,
+    "goal_metric": "resource_collection_efficiency",
+    "reward_components": [
+      {
+        "type": "pheromone_gradient",
+        "weight": 0.4
+      },
+      {
+        "type": "resource_proximity",
+        "weight": 0.35
+      },
+      {
+        "type": "swarm_cohesion",
+        "weight": 0.15
+      },
+      {
+        "type": "exploration",
+        "weight": 0.1
+      }
+    ],
+    "termination_condition": "fitness_plateau"
+  }

@@ -1,0 +1,28 @@
+{
+  "fixed_point_multiplier": 65536,
+  "seed": 42,
+  "max_agents": 4096,
+  "grid_size": [256, 256],
+  "genome_length": 64,
+  "device": "cuda:0",
+  "headless": true,
+  "render_every": 10,
+  "hebbian_local_synapses": 32,
+  "environment": {
+    "pheromone_levels": 16,
+    "resource_spawn_rate": 0.05,
+    "block_sparse_block_size": 4
+  },
+  "evolution": {
+  "mutation_rate": 0.1, 
+  "crossover_rate": 0.8,
+  "tournament_size": 4,
+  "hebbian_eta": 0.001, 
+  "hebbian_gamma": 0.01
+  },
+  "task": {
+    "name": "random_walk",
+    "perceiver_tokens": 512,
+    "affordance_map_size": 32
+  }
+}
